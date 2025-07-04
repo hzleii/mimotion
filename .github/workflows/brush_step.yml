@@ -7,7 +7,7 @@ on:
   #  branches: [ main ]
   schedule:
     - cron: '20 8,10,12,14,16,18,20 * * *'
-    timezone: 'Asia/Shanghai'
+      timezone: 'Asia/Shanghai'
   watch:
     types: started
   workflow_dispatch:
