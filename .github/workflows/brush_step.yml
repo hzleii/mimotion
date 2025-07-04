@@ -6,7 +6,7 @@ on:
   #pull_request:
   #  branches: [ main ]
   schedule:
-    - cron: '01 8,10,12,14,16,18,20,21 * * *'
+    - cron: '15 8,10,12,14,16,18,20,21 * * *'
       timezone: 'Asia/Shanghai'
   watch:
     types: started
