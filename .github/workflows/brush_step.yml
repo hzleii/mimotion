@@ -6,9 +6,9 @@ on:
   #pull_request:
   #  branches: [ main ]
   schedule:
-    # - cron: '15 0,2,4,6,8,10,12,13 * * *'
-    - cron: '15 8,10,12,14,16,18,20,21 * * *'
-      timezone: 'Asia/Shanghai'
+    - cron: '15 0,1,2,4,6,8,10,12,13 * * *'
+    # - cron: '15 8,10,12,14,16,18,20,21 * * *'
+    #   timezone: 'Asia/Shanghai'
   watch:
     types: started
   workflow_dispatch:
